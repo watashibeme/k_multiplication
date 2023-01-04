@@ -1,0 +1,17 @@
+import java.util.*
+ 
+fun main() {
+ 
+    val read = Scanner(System.`in`)
+ 
+    println("Enter Number:")
+    val number = read.nextInt()
+ 
+    println("Multiplication Table: \n")
+    for (index in 1..10) {
+        val product = number * index
+        println("$number * $index = $product")
+    }
+ 
+    println("\nThe End")
+}
